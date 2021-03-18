@@ -148,7 +148,7 @@ function print(array, container) {
 	array.forEach((item) => {
 		const {color, family, name, prefix} = item;
 		const elementHTML = `
-		<div>
+		<div class= icon_container>
 			<i class= "${family} ${prefix}${name}" style="color: ${color}"></i>
 			<div class="title" style="color: ${color}">${name.toUpperCase()}</div>
 		</div>
